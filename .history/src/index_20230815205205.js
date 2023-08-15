@@ -39,6 +39,4 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
   },
 };
 
-//Images
-const logoImg = document.querySelector('#logo-img');
-logoImg.src = siteContent.images['logo-img'];
+console.log('project wired!')
