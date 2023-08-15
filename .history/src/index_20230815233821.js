@@ -83,9 +83,9 @@ document.querySelector('.cta .cta-text button').textContent = siteContent.cta.bu
 
 //Navigation Links
 const navLinks = document.querySelectorAll('header nav a');
-const navLinksText = Object.values(siteContent.nav); 
-navLinks.forEach((link, index) => {
-  link.textContent = navLinksText[index];
+const navigatonLinksText = Object.values(siteContent.nav); 
+navigationLinks.forEach((link, index) => {
+  link.textContent = navigatonLinksText[index];
   link.classList.add('italic');
 });
 

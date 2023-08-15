@@ -82,10 +82,10 @@ document.querySelector('.cta .cta-text h1').textContent = siteContent.cta.h1;
 document.querySelector('.cta .cta-text button').textContent = siteContent.cta.button;
 
 //Navigation Links
-const navLinks = document.querySelectorAll('header nav a');
-const navLinksText = Object.values(siteContent.nav); 
-navLinks.forEach((link, index) => {
-  link.textContent = navLinksText[index];
+const navigationLinks = document.querySelectorAll('header nav a');
+const navigatonLinksText = Object.values(siteContent.nav); 
+navigationLinks.forEach((link, index) => {
+  link.textContent = navigatonLinksText[index];
   link.classList.add('italic');
 });
 
