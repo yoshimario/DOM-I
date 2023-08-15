@@ -76,4 +76,3 @@ bottomContent.children[1].children[0].textContent = siteContent['main-content'][
 bottomContent.children[1].children[1].textContent = siteContent['main-content']['product-content'];
 bottomContent.children[2].children[0].textContent = siteContent['main-content']['vision-h4'];
 bottomContent.children[2].children[1].textContent = siteContent['main-content']['vision-content'];
-
