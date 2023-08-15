@@ -64,6 +64,4 @@ contact.children[3].textContent = siteContent.contact['email'];
 //Top Content
 const topContent = document.querySelector('.top-content');
 topContent.children[0].children[0].textContent = siteContent['main-content']['features-h4'];
-topContent.children[0].children[1].textContent = siteContent['main-content']['features-content'];
-topContent.children[1].children[0].textContent = siteContent['main-content']['about-h4'];
-topContent.children[1].children[1].textContent = siteContent['main-content']['about-content'];
+topContent.children[0].children[1].textContent = siteContent[\]['features-content'];
