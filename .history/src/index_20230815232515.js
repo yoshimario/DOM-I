@@ -78,13 +78,4 @@ bottomContent.children[2].children[0].textContent = siteContent['main-content'][
 bottomContent.children[2].children[1].textContent = siteContent['main-content']['vision-content'];
 
 //CTA 
-document.querySelector('.cta .cta-text h1').textContent = siteContent.cta.h1;
-document.querySelector('.cta .cta-text button').textContent = siteContent.cta.button;
-
-//Navigation Links
-const navigationLinks = document.querySelectorAll('header nav a');
-const navigatonLinksText = Object.values(siteContent.nav); 
-navigationLinks.forEach((link, index) => {
-  link.textContent = navigatonLinksText[index];
-});
-
+documnpment.querySelector('.cta .cta-text h1').textContent = siteContent.cta.h1;

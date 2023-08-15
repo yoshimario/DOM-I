@@ -87,4 +87,3 @@ const navigatonLinksText = Object.values(siteContent.nav);
 navigationLinks.forEach((link, index) => {
   link.textContent = navigatonLinksText[index];
 });
-

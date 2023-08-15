@@ -82,9 +82,4 @@ document.querySelector('.cta .cta-text h1').textContent = siteContent.cta.h1;
 document.querySelector('.cta .cta-text button').textContent = siteContent.cta.button;
 
 //Navigation Links
-const navigationLinks = document.querySelectorAll('header nav a');
-const navigatonLinksText = Object.values(siteContent.nav); 
-navigationLinks.forEach((link, index) => {
-  link.textContent = navigatonLinksText[index];
-});
-
+document.querySelector('.nav').children[0].textContent = siteContent.nav['nav-item-1'];
